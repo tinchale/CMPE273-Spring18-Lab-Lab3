@@ -1,0 +1,29 @@
+(my-venv) home:Lab3 jasmine$ python3 client.py David
+User[David] Connected to the chat server.
+[David] >Hi This is David
+[David] >Hi Guy
+[David] >[JOHN]: Hi
+[JOHN]: This is John
+[TIN]: hello
+[TIN]: this is tin
+
+
+(my-venv) home:Lab3 jasmine$ python3 client.py JOHN
+User[JOHN] Connected to the chat server.
+[JOHN] >[David]: Hi This is David
+[David]: Hi Guy
+Hi
+[JOHN] >This is John
+[JOHN] >[TIN]: hello
+[TIN]: this is tin
+
+
+(my-venv) home:Lab3 jasmine$ python3 client.py TIN
+User[TIN] Connected to the chat server.
+[TIN] >[David]: Hi This is David
+[David]: Hi Guy
+[JOHN]: Hi
+[JOHN]: This is John
+hello
+[TIN] >this is tin
+[TIN] >
